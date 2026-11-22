@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="iuvC 的个人博客，记录 OI 训练、算法题解和日常。">
+  <meta name="theme-color" content="#18132d">
+  <title>iuvC 的博客</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='10' fill='%237d55bd'/%3E%3Cpath d='M16 4l3 9 9 3-9 3-3 9-3-9-9-3 9-3z' fill='%23fff1d9'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js"></script>
+  <script defer src="blog.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到内容</a>
+  <header class="top">
+    <nav class="shell nav" aria-label="主导航">
+      <a class="brand" href="./"><span class="sigil" aria-hidden="true">✦</span><span>iuvC<small>的博客</small></span></a>
+      <div class="navlinks">
+        <a href="./" id="home-link" aria-current="page">首页</a>
+        <a href="#notes" id="notes-link">文章</a>
+        <a href="https://github.com/MHSLC/iuvc-blog">GitHub</a>
+        <button type="button" class="theme" id="theme" aria-label="切换深浅主题" aria-pressed="false" title="切换深浅主题">☾</button>
+      </div>
+    </nav>
+  </header>
+  <main id="main" class="shell">
+    <div id="home">
+      <section class="hero" aria-labelledby="site-title">
+        <div class="hero-art" aria-hidden="true"></div>
+        <div class="hero-deco" aria-hidden="true"><span>✧</span><span>✦</span><span>˚</span><span>✧</span><span>✦</span></div>
+        <div class="hero-copy">
+          <div class="hero-label"><span aria-hidden="true">✦</span> iuvC’S NOTEBOOK</div>
+          <h1 id="site-title"><em>iuvC</em><span>的博客</span></h1>
+          <p>算法练习、题解和日常碎片。</p>
+          <a class="button hero-button" href="#notes"><span aria-hidden="true">✧</span> 翻开手记</a>
+        </div>
+        <a class="hero-credit" href="https://wall.alphacoders.com/big.php?i=1304034">ELAINA · 插画来源</a>
+      </section>
+      <div class="home-grid" id="notes">
+        <section aria-labelledby="notes-title">
+          <div class="section-title"><h2 id="notes-title"><span aria-hidden="true">✧</span> 最新文章</h2><span>01 篇</span></div>
+          <article class="post-card">
+            <div class="post-decoration" aria-hidden="true"><span>✦</span><b>の</b><span>✧</span></div>
+            <div class="post-copy">
+              <div class="meta"><span class="pill">训练日记</span><time datetime="2026-11-20">2026.11.20</time></div>
+              <h3><a href="?post=no">の</a></h3>
+              <p>11.20–11.22 的刷题手记。收录洛谷、Codeforces、AtCoder 和 UOJ 的 10 道练习题。</p>
+              <a href="?post=no" class="read">阅读全文 <span aria-hidden="true">✦</span></a>
+            </div>
+          </article>
+        </section>
+        <aside aria-labelledby="author-title">
+          <div class="section-title"><h2 id="author-title"><span aria-hidden="true">♡</span> 关于这里</h2></div>
+          <div class="profile">
+            <span class="profile-star" aria-hidden="true">✧</span>
+            <div class="avatar" aria-hidden="true"><span>☾</span><i>✦</i></div>
+            <div><b>iuvC</b><p>备战 NOIP 的 OIer</p></div>
+            <div class="profile-links"><a href="https://www.luogu.com.cn/user/352536">洛谷</a><a href="https://github.com/MHSLC">GitHub</a></div>
+          </div>
+        </aside>
+      </div>
+    </div>
+    <div id="reader" hidden>
+      <a class="back" href="./#notes">‹ 返回文章列表</a>
+      <div class="reader-grid">
+        <article class="paper">
+          <header class="article-head">
+            <div class="meta"><span class="pill">训练日记</span><time datetime="2026-11-20">2026.11.20</time></div>
+            <h1>の <span aria-hidden="true">✧</span></h1>
+            <p>iuvC <span aria-hidden="true">·</span> <a href="https://www.luogu.com.cn/article/k89c1gej">洛谷原文</a></p>
+          </header>
+          <div id="article-body"><p role="status">正在加载原文…</p></div>
+        </article>
+        <aside class="toc" aria-label="文章目录">
+          <h2><span aria-hidden="true">✧</span> 目录</h2>
+          <div id="toc-links"></div>
+          <a class="source" href="journal.md">Markdown 源文</a>
+        </aside>
+      </div>
+    </div>
+  </main>
+  <footer class="shell footer"><span>© 2026 iuvC</span><span aria-hidden="true">✧　♡　✦</span></footer>
+</body>
+</html>
